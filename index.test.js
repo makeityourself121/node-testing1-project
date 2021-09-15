@@ -47,7 +47,7 @@ describe('[Exercise 3] findLargestInteger', () => {
 describe('[Exercise 4] Counter', () => {
   let counter
   beforeEach(() => {
-    counter = new utils.Counter(3) // each test must start with a fresh couter
+    counter = new utils.Counter(3)
   })
   test('[6] the FIRST CALL of counter.countDown returns the initial count', () => {
     expect(counter.countDown()).toBe(3)
@@ -67,7 +67,7 @@ describe('[Exercise 4] Counter', () => {
 describe('[Exercise 5] Seasons', () => {
   let seasons
   beforeEach(() => {
-    seasons = new utils.Seasons() // each test must start with fresh seasons
+    seasons = new utils.Seasons()
   })
   test('[9] the FIRST call of seasons.next returns "summer"', () => {
     expect(seasons.next()).toBe('summer')
@@ -104,7 +104,7 @@ describe('[Exercise 5] Seasons', () => {
 describe('[Exercise 6] Car', () => {
   let focus
   beforeEach(() => {
-    focus = new utils.Car('focus', 20, 30) // each test must start with a fresh car
+    focus = new utils.Car('focus', 20, 30)
   })
   test('[15] driving the car returns the updated odometer', () => {
     focus.drive(100)
